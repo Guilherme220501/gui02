@@ -65,10 +65,10 @@ nav{padding: 20px;margin: auto;width: 300px;border-radius: 10px 10px;align-items
 section{padding: 20px;margin: auto;width: 300px;border-radius: 10px 10px;align-items: center;justify-content: center;text-align: center;}
 footer{padding: 20px;margin: auto;width: 300px;border-radius: 10px 10px;align-items: center;justify-content: center;text-align: center;}
 header{padding: 20px;margin: auto;width: 300px;border-radius: 10px 10px;align-items: center;justify-content: center;text-align: center;}
-.cursos:hover{transition: transform(1.05s);transform: scale(0.5);}
-.summary:hover{transform: scale(0.7);transition: transform(1.06s);}
-.img:hover{transform: scale(0.5);transition: transform(1.04s);}
-.footer:hover{transform: scale(0.4);transition: transform(1.06s);}
+.cursos:hover{transition: transform(0.7s);transform: scale(1.05);}
+.summary:hover{transform: scale(1.07);transition: transform(0.6s);}
+.img:hover{transform: scale(1.05);transition: transform(0.4s);}
+.footer:hover{transform: scale(1.04);transition: transform(0.6s);}
 .header:hover{transform: scale(0.5);transition: transform(1.05s);}
-.section:hover{transform: scale(0.7);transition: transform(1.03s);}
-.nav:hover{transform: scale(0.5);transition: transform(1.08s);}
+.section:hover{transform: scale(1.07);transition: transform(0.6s);}
+.nav:hover{transform: scale(1.05);transition: transform(1.08s);}
