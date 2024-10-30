@@ -69,6 +69,6 @@ header{padding: 20px;margin: auto;width: 300px;border-radius: 10px 10px;align-it
 .summary:hover{transform: scale(1.07);transition: transform(0.6s);}
 .img:hover{transform: scale(1.05);transition: transform(0.4s);}
 .footer:hover{transform: scale(1.04);transition: transform(0.6s);}
-.header:hover{transform: scale(0.5);transition: transform(1.05s);}
+.header:hover{transform: scale(1.05);transition: transform(0.6s);}
 .section:hover{transform: scale(1.07);transition: transform(0.6s);}
 .nav:hover{transform: scale(1.05);transition: transform(1.08s);}
