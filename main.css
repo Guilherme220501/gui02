@@ -1,0 +1,74 @@
+.menu {font-size: 20px;      font-style:oblique;
+    cursor: pointer;
+    padding: 20px;
+    background-color: white;
+    color: black;
+    position: fixed;
+    left: 10px;
+    z-index: 2000;
+border-radius: 10px 10px;
+list-style: none;
+    display: flex;
+    padding: 20px;
+    border-radius: 10px 10px;
+}
+/* Menu Lateral */
+.fundo {
+    position: fixed;
+    top: 0;
+    left: -250px; /* Fora da tela inicialmente */
+    width: 170px;
+    height: 500vh;
+    background-color:white;
+    transition: left 0.5s;
+    z-index: 1000;
+    border-radius: 10px 10px;
+    padding-top: 20px;
+    margin-bottom: 5px;
+}
+.botão-fechar-X {float: right;
+    position: relative;right: 10px;top: 10px;
+    background: none;
+    border: none;
+    color: black;
+    font-size: 30px;
+    cursor: pointer;
+}
+.animação ul li a:hover {
+    background-color: rgb(255, 255, 255);
+    white-space: nowrap;
+    text-decoration: underline;
+    width: 100px;
+    border-radius: 10px 10px;
+    box-shadow: 5px 5px 5px black;
+    padding: 10px;
+    color: red;
+    text-decoration: none;
+    display: block;
+    border-radius: 10px 10px;
+    margin-bottom: 10px;
+}
+body{margin: auto;align-items: center;justify-content: center;text-align: center;background: linear-gradient(to right,white,black,white);}
+h1{font-family: 'Franklin Gothic Medium', 'Arial Narrow', Arial, sans-serif;font-style: oblique;font-size: 30px;text-shadow: 6px;color: white;text-decoration: underline;}
+h2{font-family: Cambria, Cochin, Georgia, Times, 'Times New Roman', serif;font-style: italic;font-size: 20px;text-shadow: 6px;color: black;}
+p{font-size: 15px;font-family: 'Lucida Sans', 'Lucida Sans Regular', 'Lucida Grande', 'Lucida Sans Unicode', Geneva, Verdana, sans-serif;font-style: inherit;text-shadow: 6px;color: white;}
+a{font-size: 10px;text-decoration: none;}
+ul{list-style-type: none;text-align: left;}
+dl{padding: 5px;}
+dt{padding: 5px;text-align: left;font-size: 20px;font-family: 'Franklin Gothic Medium', 'Arial Narrow', Arial, sans-serif;font-style: oblique;text-shadow: 6px;}
+dd{padding: 5px;text-align: left;font-size: 15px;font-family: inherit;font-style: initial;text-shadow: 6px;}
+summary{cursor: pointer;border-radius: 10px 10px;text-shadow: 6px;margin: auto;width: 300px;padding: 4px;}
+thead{text-align: left;font-size: 20px;font-family: 'Franklin Gothic Medium', 'Arial Narrow', Arial, sans-serif;font-style: oblique;text-shadow: 6px;}
+tbody{text-align: left;font-size: 15px;font-family: Cambria, Cochin, Georgia, Times, 'Times New Roman', serif;font-style: italic;text-shadow: 6px;}
+tfoot{text-align: left;font-size: 20px;font-family: inherit;font-style: initial;text-shadow: 6px;}
+nav{padding: 20px;margin: auto;width: 300px;border-radius: 10px 10px;align-items: center;justify-content: center;text-align: center;}
+section{padding: 20px;margin: auto;width: 300px;border-radius: 10px 10px;align-items: center;justify-content: center;text-align: center;}
+footer{padding: 20px;margin: auto;width: 300px;border-radius: 10px 10px;align-items: center;justify-content: center;text-align: center;}
+header{padding: 20px;margin: auto;width: 300px;border-radius: 10px 10px;align-items: center;justify-content: center;text-align: center;}
+.cursos:hover{transition: transform(1.05s);transform: scale(0.5);}
+.summary:hover{transform: scale(0.7);transition: transform(1.06s);}
+.img:hover{transform: scale(0.5);transition: transform(1.04s);}
+.footer:hover{transform: scale(0.4);transition: transform(1.06s);}
+.header:hover{transform: scale(0.5);transition: transform(1.05s);}
+.section:hover{transform: scale(0.7);transition: transform(1.03s);}
+.nav:hover{transform: scale(0.5);transition: transform(1.08s);}
