@@ -19,9 +19,9 @@ fieldset{width: 300px;margin: auto;border-radius: 10px 10px;padding: 20px;align-
 label{font-size: 20px;font-family: 'Franklin Gothic Medium', 'Arial Narrow', Arial, sans-serif;font-style: oblique;text-shadow: 6px;padding: 10px;display: flex;flex-direction: column;align-items: center;justify-content: center;text-align: center;}
 #relogio{margin: auto;width: 200px;border-radius: 10px 10px;cursor: pointer;padding: 12px;background-color: rgb(84, 84, 76);color: white;border: 5px solid white;font-size: 20px;font-family: 'Franklin Gothic Medium', 'Arial Narrow', Arial, sans-serif;font-style: oblique;text-shadow: 6px;}
 .time:hover{transform: scale(0.8);transition: transform(1.04s);}
-.color1{display: flex;flex-direction: row;align-items: center;justify-content: center;text-align: center;gap: 5px;padding: 10px;background-color: black;border: 6px solid white;box-shadow: 8px 8px 8px yellow;width: 800px;}
-.color2{display: flex;flex-direction: row;align-items: center;justify-content: center;text-align: center;gap: 5px;padding: 10px;background-color: white;border: 6px solid black;box-shadow: 8px 8px 8px white;width: 800px;}
-.color3{display: flex;flex-direction: row;align-items: center;justify-content: center;text-align: center;gap: 5px;padding: 10px;background-color: blueviolet;border: 6px solid white;box-shadow: 8px 8px 8px blue;width: 900px;}
+.color1{display: flex;flex-direction: row;align-items: center;justify-content: center;text-align: center;gap: 5px;padding: 10px;background-color: black;border: 6px solid white;box-shadow: 8px 8px 8px yellow;width: 600px;}
+.color2{display: flex;flex-direction: row;align-items: center;justify-content: center;text-align: center;gap: 5px;padding: 10px;background-color: white;border: 6px solid black;box-shadow: 8px 8px 8px white;width: 700px;}
+.color3{display: flex;flex-direction: row;align-items: center;justify-content: center;text-align: center;gap: 5px;padding: 10px;background-color: blueviolet;border: 6px solid white;box-shadow: 8px 8px 8px blue;width: 800px;}
 .color4{display: flex;flex-direction: row;align-items: center;justify-content: center;text-align: center;gap: 5px;padding: 10px;background-color: bisque;border: 6px solid white;box-shadow: 8px 8px 8px red;width: 1000px;}
 input{margin: auto;border-radius: 10px 10px;padding: 4px;width: 300px;background-color: white;border: 5px solid black;color: black;text-shadow: 6px;font-size: 15px;font-family: 'Times New Roman', Times, serif;font-style: oblique;text-align: left;}
 select{width: 230px;margin: auto;border-radius: 10px 10px;background-color: black;color: white;border: 5px solid white;box-shadow: 8px 8px 8px yellow;text-shadow: 6px;cursor: pointer;font-size: 20px;font-family: 'Franklin Gothic Medium', 'Arial Narrow', Arial, sans-serif;font-style: oblique;}
@@ -80,17 +80,17 @@ footer{padding: 20px;margin: auto;width: 300px;border-radius: 10px 10px;text-ali
     <div class="summary"><div id="text"><details><summary style="background-color: blue;color: white;border: 4px solid white;box-shadow: 8px 8px 8px blue;">QUAL?</summary>
     <br>
     <div class="color1">
-    <label for="Solteiro" style="font-size:10px;color: white;text-shadow: 6px;"></label>
+    <label for="Solteiro" style="font-size:10px;color: white;text-shadow: 6px;">Solteiro</label>
     <input type="checkbox" value="Solteiro" name="civil?">
-    <label for="Casado" style="font-size:10px;color: white;text-shadow: 6px;"></label>
+    <label for="Casado" style="font-size:10px;color: white;text-shadow: 6px;">Casado</label>
     <input type="checkbox" value="Casado" name="civil?">
-    <label for="Separado" style="font-size:10px;color: white;text-shadow: 6px;"></label>
+    <label for="Separado" style="font-size:10px;color: white;text-shadow: 6px;">Separado</label>
     <input type="checkbox" value="Separado" name="civil?">
-    <label for="Divorciado" style="font-size:10px;color: white;text-shadow: 6px;"></label>
+    <label for="Divorciado" style="font-size:10px;color: white;text-shadow: 6px;">Divorciado</label>
     <input type="checkbox" value="Divorciado" name="civil?">
-    <label for="Viúvo" style="font-size:10px;color: white;text-shadow: 6px;"></label>
+    <label for="Viúvo" style="font-size:10px;color: white;text-shadow: 6px;">Viúvo</label>
     <input type="checkbox" value="Viúvo" name="civil?">
-    <label for="Compromissado" style="font-size:10px;color: white;text-shadow: 6px;"></label>
+    <label for="Compromissado" style="font-size:10px;color: white;text-shadow: 6px;">Compromissado</label>
     <input type="checkbox" value="Compromissado" name="civil?">
     </div>
     </details></div></div>
@@ -101,21 +101,21 @@ footer{padding: 20px;margin: auto;width: 300px;border-radius: 10px 10px;text-ali
     <div class="summary"><div id="text"><details><summary style="background-color: black;color: white;border: 4px solid white;box-shadow: 8px 8px 8px yellow;">QUAL?</summary>
     <br>
     <div class="color2">
-    <label for="Aprendiz" style="font-size: 10px;color: white;"></label>
+    <label for="Aprendiz" style="font-size: 10px;color: white;">Aprendiz</label>
     <input type="radio" value="Aprendiz" name="conhecimento?" required>
-    <label for="Iniciante" style="font-size: 10px;color: white;"></label>
+    <label for="Iniciante" style="font-size: 10px;color: white;">Iniciante</label>
     <input type="radio" value="Iniciante" name="conhecimento?" required>
-    <label for="Intermediário" style="font-size: 10px;color: white;"></label>
+    <label for="Intermediário" style="font-size: 10px;color: white;">Intermediário</label>
     <input type="radio" value="Intermediário" name="conhecimento?" required>
-    <label for="Mediano" style="font-size: 10px;color: white;"></label>
+    <label for="Mediano" style="font-size: 10px;color: white;">Mediano</label>
     <input type="radio" value="Mediano" name="conhecimento?" required>
-    <label for="Experiente" style="font-size: 10px;color: white;"></label>
+    <label for="Experiente" style="font-size: 10px;color: white;">Experiente</label>
     <input type="radio" value="Experiente" name="conhecimento?" required>
-    <label for="Expert" style="font-size: 10px;color: white;"></label>
+    <label for="Expert" style="font-size: 10px;color: white;">Expert</label>
     <input type="radio" value="Expert" name="conhecimento?" required>
-    <label for="Sábio" style="font-size: 10px;color: white;"></label>
+    <label for="Sábio" style="font-size: 10px;color: white;">Sábio</label>
     <input type="radio" value="Sábio" name="conhecimento?" required>
-    <label for="Bruxo" style="font-size: 10px;color: white;"></label>
+    <label for="Bruxo" style="font-size: 10px;color: white;">Bruxo</label>
     <input type="radio" value="Bruxo" name="conhecimento?" required>
     </div>
     </details></div></div>
@@ -126,23 +126,23 @@ footer{padding: 20px;margin: auto;width: 300px;border-radius: 10px 10px;text-ali
     <div class="summary"><div id="text"><details><summary style="background-color: brown;color: white;border: 4px solid white;box-shadow: 8px 8px 8px brown;">QUAL?</summary>
     <br>
     <div class="color3">
-    <label for="Novato" style="font-size: 10px;color: white;"></label>
+    <label for="Novato" style="font-size: 10px;color: white;">Novato</label>
     <input type="checkbox" value="Novato" name="experiência">
-    <label for="Jovem" style="font-size: 10px;color: white;"></label>
+    <label for="Jovem" style="font-size: 10px;color: white;">Jovem</label>
     <input type="checkbox" value="Jovem" name="experiência">
-    <label for="Iniciante" style="font-size: 10px;color: white;"></label>
+    <label for="Iniciante" style="font-size: 10px;color: white;">Iniciante</label>
     <input type="checkbox" value="Iniciante" name="experiência">
-    <label for="Mediano" style="font-size: 10px;color: white;"></label>
+    <label for="Mediano" style="font-size: 10px;color: white;">Mediano</label>
     <input type="checkbox" value="Mediano" name="experiência">
-    <label for="Intermediário" style="font-size: 10px;color: white;"></label>
+    <label for="Intermediário" style="font-size: 10px;color: white;">Intermediário</label>
     <input type="checkbox" value="Intermediário" name="experiência">
-    <label for="Master" style="font-size: 10px;color: white;"></label>
+    <label for="Master" style="font-size: 10px;color: white;">Master</label>
     <input type="checkbox" value="Master" name="experiência">
-    <label for="Experiente" style="font-size: 10px;color: white;"></label>
+    <label for="Experiente" style="font-size: 10px;color: white;">Experiente</label>
     <input type="checkbox" value="Experiente" name="experiência">
-    <label for="Inovador" style="font-size: 10px;color: white;"></label>
+    <label for="Inovador" style="font-size: 10px;color: white;">Inovador</label>
     <input type="checkbox" value="Inovador" name="experiência">
-    <label for="Veterano" style="font-size: 10px;color: white;"></label>
+    <label for="Veterano" style="font-size: 10px;color: white;">Veterano</label>
     <input type="checkbox" value="Veterano" name="experiência">
     </div>
     </details></div></div>
@@ -153,25 +153,25 @@ footer{padding: 20px;margin: auto;width: 300px;border-radius: 10px 10px;text-ali
     <div class="summary"><div id="text"><details><summary style="background-color: bisque;color: black;border: 4px solid black;box-shadow: 8px 8px 8px bisque;">QUAL?</summary>
     <br>
     <div class="color4">
-    <label for="Classe A" style="font-size: 10px;color: black;"></label>
+    <label for="Classe A" style="font-size: 10px;color: black;">Classe A</label>
     <input type="radio" value="Classe A" name="social?" required>
-    <label for="Classe B" style="font-size: 10px;color: black;"></label>
+    <label for="Classe B" style="font-size: 10px;color: black;">Classe B</label>
     <input type="radio" value="Classe B" name="social?" required>
-    <label for="Classe C" style="font-size: 10px;color: black;"></label>
+    <label for="Classe C" style="font-size: 10px;color: black;">Classe C</label>
     <input type="radio" value="Classe C" name="social?" required>
-    <label for="Classe D" style="font-size: 10px;color: black;"></label>
+    <label for="Classe D" style="font-size: 10px;color: black;">Classe D</label>
     <input type="radio" value="Classe D" name="social?" required>
-    <label for="Classe E" style="font-size: 10px;color: black;"></label>
+    <label for="Classe E" style="font-size: 10px;color: black;">Classe E</label>
     <input type="radio" value="Classe E" name="social?" required>
-    <label for="Classe F" style="font-size: 10px;color: black;"></label>
+    <label for="Classe F" style="font-size: 10px;color: black;">Classe F</label>
     <input type="radio" value="Classe F" name="social?" required>
-    <label for="Classe X" style="font-size: 10px;color: black;"></label>
+    <label for="Classe X" style="font-size: 10px;color: black;">Classe X</label>
     <input type="radio" value="Classe X" name="social?" required>
-    <label for="Classe S" style="font-size: 10px;color: black;"></label>
+    <label for="Classe S" style="font-size: 10px;color: black;">Classe S</label>
     <input type="radio" value="Classe S" name="social?" required>
-    <label for="Classe Z" style="font-size: 10px;color: black;"></label>
+    <label for="Classe Z" style="font-size: 10px;color: black;">Classe Z</label>
     <input type="radio" value="Classe Z" name="social?" required>
-    <label for="Classe XX" style="font-size: 10px;color: black;"></label>
+    <label for="Classe XX" style="font-size: 10px;color: black;">Classe XX</label>
     <input type="radio" value="Classe XX" name="social?" required>
     </div>
     </details></div></div>
