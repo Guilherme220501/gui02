@@ -57,7 +57,7 @@ ul{list-style-type: none;text-align: left;}
 dl{padding: 5px;}
 dt{padding: 5px;text-align: left;font-size: 20px;font-family: 'Franklin Gothic Medium', 'Arial Narrow', Arial, sans-serif;font-style: oblique;text-shadow: 6px;}
 dd{padding: 5px;text-align: left;font-size: 15px;font-family: inherit;font-style: initial;text-shadow: 6px;}
-summary{cursor: pointer;border-radius: 10px 10px;text-shadow: 6px;margin: auto;width: 300px;padding: 4px;}
+summary{cursor: pointer;border-radius: 10px 10px;text-shadow: 6px;margin: auto;width: 230px;padding: 4px;}
 thead{text-align: left;font-size: 20px;font-family: 'Franklin Gothic Medium', 'Arial Narrow', Arial, sans-serif;font-style: oblique;text-shadow: 6px;}
 tbody{text-align: left;font-size: 15px;font-family: Cambria, Cochin, Georgia, Times, 'Times New Roman', serif;font-style: italic;text-shadow: 6px;}
 tfoot{text-align: left;font-size: 20px;font-family: inherit;font-style: initial;text-shadow: 6px;}
